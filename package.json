@@ -13,13 +13,18 @@
     "generate-types": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^13.1.6",
+    "@astrojs/cloudflare": "^13.1.9",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.1.2",
+    "astro": "^6.1.6",
+    "astro-leaflet": "^1.10.0",
+    "dayjs": "^1.11.20",
     "tailwindcss": "^4.2.2",
-    "wrangler": "^4.79.0"
+    "wrangler": "^4.82.1"
   },
   "overrides": {
     "vite": "^7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
   }
 }
