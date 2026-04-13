@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="UCB Cristo al Mundo">
+  <Header />
+
+  <main class="snap-y snap-mandatory h-screen overflow-y-scroll">
+    <section
+      id="inicio"
+      class="snap-start min-h-screen relative flex items-center justify-center pt-16"
+    >
+      <div>test</div>
+    </section>
+    <Footer />
+  </main>
+
+  <style>
+    /* Hide scrollbar for the vertical snap container but keep functionality */
+    main::-webkit-scrollbar {
+      width: 8px;
+    }
+    main::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    main::-webkit-scrollbar-thumb {
+      background-color: rgba(156, 163, 175, 0.5);
+      border-radius: 20px;
+    }
+  </style>
+</Layout>
