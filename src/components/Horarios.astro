@@ -1,0 +1,87 @@
+---
+// Datos de prueba (placeholders)
+const reuniones = [
+  {
+    titulo: "Culto de Adoración Dominical",
+    dia: "Domingo",
+    hora: "10:30 AM",
+    descripcion:
+      "Nuestro servicio principal de alabanza y predicación de la Palabra.",
+  },
+  {
+    titulo: "Escuela Dominical",
+    dia: "Domingo",
+    hora: "10:30 AM",
+    descripcion:
+      "Clases bíblicas para todas las edades antes del culto principal.",
+  },
+  {
+    titulo: "Reunión de Oración",
+    dia: "Miércoles",
+    hora: "20:30 PM",
+    descripcion:
+      "Un tiempo dedicado a buscar la presencia de Dios en comunión.",
+  },
+  {
+    titulo: "Grupo de Jóvenes",
+    dia: "Sábado",
+    hora: "18:00 PM",
+    descripcion: "Reunión dinámica para adolescentes y jóvenes.",
+  },
+];
+---
+<section
+  id="horarios"
+  class="snap-start min-h-screen flex items-center bg-gray-50 pt-20 pb-12"
+>
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+        Nuestros Horarios
+      </h2>
+      <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+        Te invitamos a ser parte de nuestras actividades semanales. Hay un
+        lugar para ti en nuestra congregación.
+      </p>
+    </div>
+
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto"
+    >
+      {
+        reuniones.map((reunion) => (
+          <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all group">
+            <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg
+                class="w-7 h-7"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">
+              {reunion.titulo}
+            </h3>
+            <div class="flex items-center text-blue-600 font-semibold mb-4 space-x-2">
+              <span>{reunion.dia}</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-blue-600" />
+              <span>{reunion.hora}</span>
+            </div>
+            <p class="text-gray-600 leading-relaxed">
+              {reunion.descripcion}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
