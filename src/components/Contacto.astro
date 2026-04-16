@@ -4,7 +4,7 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
 
 <section
   id="contacto"
-  class="snap-start h-screen flex flex-col md:flex-row bg-white relative pt-16"
+  class="snap-start flex flex-col md:flex-row bg-white relative pt-16 min-h-screen md:h-screen"
 >
   <!-- Mitad Izquierda: Info de Contacto -->
   <div
@@ -105,7 +105,7 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
   </div>
 
   <!-- Mitad Derecha: Mapa -->
-  <div class="flex-1 h-[40vh] md:h-full w-full relative z-0">
+  <div class="flex-1 min-h-[50vh] md:h-full w-full relative z-0">
     <Leaflet
       options={{
         center: [-33.68469179622105, -71.2175331755713],
