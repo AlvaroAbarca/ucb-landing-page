@@ -2,24 +2,125 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+
+const ministerios = [
+  {
+    titulo: "Alabanza y Adoración",
+    descripcion:
+      "Guiamos a la congregación a través de la música y el canto, buscando la presencia de Dios en cada reunión para rendirle la gloria que Él merece.",
+    imagen:
+      "https://images.unsplash.com/photo-1510511459019-5efa3acfa28d?q=80&w=2070&auto=format&fit=crop",
+    enlace: "/ministerios/alabanza",
+  },
+  {
+    titulo: "Diáconos y Ujieres",
+    descripcion:
+      "Servimos con amor y dedicación en la organización de los cultos, recibiendo a los hermanos y visitantes para que se sientan como en casa.",
+    imagen:
+      "https://images.unsplash.com/photo-1601524317182-35804595cc04?q=80&w=2070&auto=format&fit=crop",
+    enlace: "/ministerios/diaconos",
+  },
+  {
+    titulo: "Audiovisual y Transmisiones",
+    descripcion:
+      "Llevamos el mensaje más allá de nuestras paredes a través de la tecnología, gestionando el sonido, proyección y las transmisiones en vivo.",
+    imagen:
+      "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?q=80&w=2140&auto=format&fit=crop",
+    enlace: "/ministerios/audiovisual",
+  },
+  {
+    titulo: "Párvulos (Ministerio Infantil)",
+    descripcion:
+      "Instruimos a los niños en el camino del Señor de forma creativa y didáctica, sembrando la semilla del evangelio desde temprana edad.",
+    imagen:
+      "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=2070&auto=format&fit=crop",
+    enlace: "/ministerios/parvulos",
+  },
+  {
+    titulo: "Jóvenes",
+    descripcion:
+      "Un espacio dinámico para que los jóvenes crezcan en su fe, compartan en comunión y sean equipados para enfrentar los desafíos de la actualidad.",
+    imagen:
+      "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop",
+    enlace: "/ministerios/jovenes",
+  },
+];
 ---
 
 <Layout title="Ministerios - UCB Cristo al Mundo">
   <Header />
 
-  <main class="snap-y snap-mandatory h-screen overflow-y-scroll">
+  <main class="md:snap-y md:snap-mandatory h-screen overflow-y-scroll">
     <section
-      id="inicio"
-      class="snap-start min-h-screen relative flex items-center justify-center pt-16"
+      id="ministerios"
+      class="snap-start min-h-screen bg-gray-50 pt-24 pb-16 flex flex-col items-center"
     >
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Nuestros Ministerios
+          </h1>
+          <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
+          <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+            Descubre las diferentes áreas en las que servimos a Dios y a nuestra
+            comunidad. Todos somos parte del cuerpo de Cristo y tenemos un lugar
+            para servir.
+          </p>
+        </div>
 
-      <!-- WIP Page -->
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-bold">Ministerios</h1>
-        <p class="text-lg">Próximamente...</p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+        >
+          {
+            ministerios.map((ministerio) => (
+              <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col">
+                <div class="relative h-64 overflow-hidden">
+                  <img
+                    src={ministerio.imagen}
+                    alt={`Imagen del ministerio de ${ministerio.titulo}`}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80" />
+                  <h3 class="absolute bottom-6 left-6 right-6 text-2xl font-bold text-white leading-tight">
+                    {ministerio.titulo}
+                  </h3>
+                </div>
+                <div class="p-8 grow flex flex-col">
+                  <p class="text-gray-600 leading-relaxed text-lg grow">
+                    {ministerio.descripcion}
+                  </p>
+                  <div class="mt-6 pt-6 border-t border-gray-100">
+                    <a
+                      href={ministerio.enlace}
+                      class="text-blue-600 font-semibold flex items-center hover:text-blue-800 transition-colors inline-flex"
+                    >
+                      Conocer más
+                      <svg
+                        class="w-5 h-5 ml-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
       </div>
     </section>
-    <Footer />
+    <div class="snap-start">
+      <Footer />
+    </div>
   </main>
 
   <style>
