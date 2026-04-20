@@ -19,6 +19,44 @@ import Footer from "../components/Footer.astro";
     <Footer />
   </main>
 
+  <script>
+    const mainContainer = document.querySelector("main");
+    if (mainContainer) {
+      // Find all direct children of main that have an id
+      const sections = Array.from(mainContainer.children).filter((child) => child.id);
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.id;
+              if (id) {
+                history.replaceState(null, "", `#${id}`);
+              }
+            }
+          });
+        },
+        {
+          root: mainContainer,
+          threshold: 0.5, // Trigger when 50% of the section is visible
+        }
+      );
+
+      sections.forEach((section) => observer.observe(section));
+
+      // Handle initial load if there's a hash in the URL
+      const hash = window.location.hash;
+      if (hash) {
+        const target = document.querySelector(hash);
+        if (target && mainContainer.contains(target)) {
+          setTimeout(() => {
+            target.scrollIntoView({ behavior: "smooth" });
+          }, 100);
+        }
+      }
+    }
+  </script>
+
   <style>
     /* Hide scrollbar for the vertical snap container but keep functionality */
     main::-webkit-scrollbar {
