@@ -12,18 +12,34 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title}>
-  <main class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 flex justify-center selection:bg-blue-100 selection:text-blue-900">
-    <article class="prose prose-slate prose-headings:font-bold prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline lg:prose-lg mx-auto bg-white p-8 md:p-16 shadow-sm ring-1 ring-gray-900/5 rounded-2xl w-full max-w-4xl">
+  <main
+    class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-gray-50 flex justify-center selection:bg-blue-100 selection:text-blue-900"
+  >
+    <article
+      class="prose prose-slate prose-headings:font-bold prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline lg:prose-lg mx-auto bg-white p-8 md:p-16 shadow-sm ring-1 ring-gray-900/5 rounded-2xl w-full max-w-4xl"
+    >
       <div class="not-prose mb-12">
-        <a 
-          href="/" 
+        <a
+          href="/"
+          onclick="if (window.history.length > 1 && document.referrer.includes(window.location.host)) { event.preventDefault(); window.history.back(); }"
           class="text-gray-500 hover:text-gray-900 transition-colors inline-flex items-center gap-2 text-sm font-medium"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
-            <path d="m12 19-7-7 7-7"/>
-            <path d="M19 12H5"/>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-left"
+          >
+            <path d="m12 19-7-7 7-7"></path>
+            <path d="M19 12H5"></path>
           </svg>
-          Volver al inicio
+          Volver atrás
         </a>
       </div>
       <slot />
