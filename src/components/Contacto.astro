@@ -4,30 +4,34 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
 
 <section
   id="contacto"
-  class="snap-start flex flex-col md:flex-row bg-white relative pt-16 min-h-screen md:h-screen"
+  class="snap-start flex flex-col md:flex-row bg-paper relative min-h-screen md:h-screen"
 >
   <!-- Mitad Izquierda: Info de Contacto -->
   <div
-    class="flex-1 flex flex-col justify-center px-8 py-16 md:px-16 lg:px-24 bg-blue-900 text-white"
+    class="flex-1 flex flex-col justify-center px-8 py-16 pt-24 md:px-16 lg:px-24 bg-paper text-ink"
   >
     <div class="max-w-md mx-auto md:mx-0">
       <div class="flex items-center mb-8">
         <div
-          class="w-16 h-16 bg-white text-blue-900 rounded-full flex items-center justify-center font-bold text-2xl shadow-lg mr-4"
+          class="w-16 h-16 bg-ink text-paper rounded-full flex items-center justify-center font-[700] text-2xl mr-4"
         >
           UCB
         </div>
-        <h2 class="text-3xl font-bold">Cristo al Mundo</h2>
+        <h2 class="text-3xl font-[400] tracking-[-0.26px]">Cristo al Mundo</h2>
       </div>
 
+      <p class="label-mono text-ink mb-4 text-[0.75rem] sm:text-[1.125rem]">
+        Contacto
+      </p>
       <h3
-        class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-white leading-tight"
+        class="text-4xl md:text-5xl font-[400] mb-6 tracking-[-0.96px] text-ink leading-tight"
       >
-        Estamos para <span class="text-blue-300">servirte</span>
+        Estamos para servirte
       </h3>
-      <div class="w-20 h-1 bg-blue-400 rounded-full mb-8"></div>
 
-      <p class="text-blue-100 text-lg mb-10 leading-relaxed font-light">
+      <p
+        class="text-ink text-lg mb-10 leading-relaxed font-[320] tracking-[-0.14px]"
+      >
         Te invitamos a ser parte de nuestra comunidad. Si tienes alguna duda,
         petición de oración o necesitas más información, no dudes en visitarnos
         o contactarnos.
@@ -36,7 +40,7 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
       <div class="space-y-6">
         <div class="flex items-start">
           <svg
-            class="w-6 h-6 text-blue-300 mt-1 mr-4 shrink-0"
+            class="w-6 h-6 text-ink mt-1 mr-4 shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -44,18 +48,18 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
+              stroke-width="1.5"
               d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
             ></path>
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
+              stroke-width="1.5"
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
           </svg>
           <div>
-            <h4 class="font-semibold text-white mb-1">Dirección Física</h4>
-            <p class="text-blue-200">
+            <h4 class="font-[540] text-ink mb-1">Dirección Física</h4>
+            <p class="text-ink/70 font-[320]">
               Merced 769, <br />Melipilla, Región Metropolitana.
             </p>
           </div>
@@ -63,7 +67,7 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
 
         <div class="flex items-start">
           <svg
-            class="w-6 h-6 text-blue-300 mt-1 mr-4 shrink-0"
+            class="w-6 h-6 text-ink mt-1 mr-4 shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -71,19 +75,19 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
+              stroke-width="1.5"
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
             ></path>
           </svg>
           <div>
-            <h4 class="font-semibold text-white mb-1">Correo Electrónico</h4>
-            <p class="text-blue-200">contacto@ucbcristoalmundo.cl</p>
+            <h4 class="font-[540] text-ink mb-1">Correo Electrónico</h4>
+            <p class="text-ink/70 font-[320]">contacto@ucbcristoalmundo.cl</p>
           </div>
         </div>
 
         <div class="flex items-start">
           <svg
-            class="w-6 h-6 text-blue-300 mt-1 mr-4 shrink-0"
+            class="w-6 h-6 text-ink mt-1 mr-4 shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -91,13 +95,13 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              stroke-width="2"
+              stroke-width="1.5"
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             ></path>
           </svg>
           <div>
-            <h4 class="font-semibold text-white mb-1">Teléfono Central</h4>
-            <p class="text-blue-200">+56 2 2123 4567</p>
+            <h4 class="font-[540] text-ink mb-1">Teléfono Central</h4>
+            <p class="text-ink/70 font-[320]">+56 2 2123 4567</p>
           </div>
         </div>
       </div>

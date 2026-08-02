@@ -2,20 +2,18 @@
 
 ---
 
-<footer
-  class="snap-end bg-gray-950 pt-20 pb-10 border-t border-gray-800 text-gray-400"
->
+<footer class="snap-end bg-ink pt-20 pb-10 text-paper/70">
   <div class="container mx-auto px-6 max-w-7xl">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
       <!-- Columna 1: Branding y Misión -->
       <div class="space-y-6">
         <a
           href="#inicio"
-          class="text-2xl font-bold tracking-tighter text-white inline-block mb-2"
+          class="text-2xl font-[540] tracking-[-0.26px] text-paper inline-block mb-2"
         >
-          UCB <span class="font-light text-blue-500">Cristo al Mundo</span>
+          UCB <span class="font-[320]">Cristo al Mundo</span>
         </a>
-        <p class="text-sm leading-relaxed text-gray-400">
+        <p class="text-sm leading-relaxed text-paper/70 font-[320]">
           Somos una iglesia bíblica comprometida con la proclamación del
           Evangelio de Jesucristo. Nuestra misión es adorar a Dios, edificar a
           los creyentes y servir a nuestra comunidad.
@@ -24,45 +22,47 @@
 
       <!-- Columna 2: Enlaces Rápidos -->
       <div>
-        <h4
-          class="text-white font-semibold mb-6 uppercase text-sm tracking-wider"
-        >
-          La Iglesia
-        </h4>
-        <ul class="space-y-3">
+        <h4 class="label-mono-sm text-paper mb-6">La Iglesia</h4>
+        <ul class="space-y-3 font-[320]">
           <li>
             <a
               href="/quienes-somos"
-              class="hover:text-blue-400 transition-colors">Quiénes Somos</a
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
+              >Quiénes Somos</a
             >
           </li>
           <li>
             <a
               href="/interno/declaracion-doctrinal"
-              class="hover:text-blue-400 transition-colors"
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
               >Nuestra Doctrina (Declaración de Fe)</a
             >
           </li>
           <li>
             <a
               href="/interno/estatutos-legales"
-              class="hover:text-blue-400 transition-colors">Estatutos Legales</a
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
+              >Estatutos Legales</a
             >
           </li>
           <li>
             <a
               href="/interno/reglamento-interno"
-              class="hover:text-blue-400 transition-colors"
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
               >Reglamento Interno</a
             >
           </li>
           <li>
-            <a href="/ministerios" class="hover:text-blue-400 transition-colors"
+            <a
+              href="/ministerios"
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
               >Ministerios</a
             >
           </li>
           <li>
-            <a href="/organigrama" class="hover:text-blue-400 transition-colors"
+            <a
+              href="/organigrama"
+              class="hover:text-paper hover:underline underline-offset-4 decoration-1 transition-colors"
               >Organigrama</a
             >
           </li>
@@ -71,12 +71,8 @@
 
       <!-- Columna 3: Contacto -->
       <div>
-        <h4
-          class="text-white font-semibold mb-6 uppercase text-sm tracking-wider"
-        >
-          Contacto
-        </h4>
-        <ul class="space-y-3">
+        <h4 class="label-mono-sm text-paper mb-6">Contacto</h4>
+        <ul class="space-y-3 font-[320]">
           <li class="flex items-center">
             <svg
               class="w-4 h-4 mr-3"
@@ -86,12 +82,12 @@
               ><path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="1.5"
                 d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
               ></path><path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="1.5"
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg
             >
             Merced 769, Melipilla.
@@ -105,7 +101,7 @@
               ><path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="1.5"
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               ></path></svg
             >
@@ -120,7 +116,7 @@
               ><path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="1.5"
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               ></path></svg
             >
@@ -131,16 +127,12 @@
 
       <!-- Columna 4: Redes Sociales -->
       <div>
-        <h4
-          class="text-white font-semibold mb-6 uppercase text-sm tracking-wider"
-        >
-          Síguenos
-        </h4>
+        <h4 class="label-mono-sm text-paper mb-6">Síguenos</h4>
         <div class="flex space-x-4">
-          <!-- Facebook -->
           <a
             href="#"
-            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all"
+            class="w-10 h-10 bg-glass-light rounded-full flex items-center justify-center text-paper hover:bg-paper/25 transition-all"
+            aria-label="Facebook"
           >
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
               ><path
@@ -148,10 +140,10 @@
               ></path></svg
             >
           </a>
-          <!-- Instagram -->
           <a
             href="#"
-            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all"
+            class="w-10 h-10 bg-glass-light rounded-full flex items-center justify-center text-paper hover:bg-paper/25 transition-all"
+            aria-label="Instagram"
           >
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
               ><path
@@ -159,10 +151,10 @@
               ></path></svg
             >
           </a>
-          <!-- YouTube -->
           <a
             href="#"
-            class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 hover:text-white transition-all"
+            class="w-10 h-10 bg-glass-light rounded-full flex items-center justify-center text-paper hover:bg-paper/25 transition-all"
+            aria-label="YouTube"
           >
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
               ><path
@@ -175,13 +167,13 @@
     </div>
 
     <div
-      class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center"
+      class="border-t border-paper/15 pt-8 flex flex-col md:flex-row justify-between items-center"
     >
-      <p class="text-sm">
+      <p class="text-sm font-[320]">
         &copy; {new Date().getFullYear()} Iglesia UCB Cristo al Mundo. Todos los derechos
         reservados.
       </p>
-      <p class="text-sm mt-4 md:mt-0 text-gray-500">
+      <p class="text-sm mt-4 md:mt-0 text-paper/50 font-[320]">
         Diseñado con propósito en Cristo.
       </p>
     </div>

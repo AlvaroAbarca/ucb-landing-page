@@ -6,6 +6,7 @@ dist/
 
 # dependencies
 node_modules/
+.pnpm-store/
 
 # logs
 npm-debug.log*
@@ -30,3 +31,5 @@ pnpm-debug.log*
 .env*
 !.env.example
 .wrangler/
+# Local Pi runtime state
+.atl/
