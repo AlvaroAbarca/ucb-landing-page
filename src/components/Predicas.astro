@@ -4,10 +4,12 @@ import "dayjs/locale/es";
 import localizedFormat from "dayjs/plugin/localizedFormat";
 dayjs.extend(localizedFormat);
 
-import { type YoutubeVideo } from "../types/youtube.types";
-import data from "../data/predicas.json" with { type: "json" };
+import { getLatestPredicas } from "../lib/youtube";
 
-const predicas: YoutubeVideo[] = data;
+const PLAYLIST_URL =
+  "https://www.youtube.com/playlist?list=PLVXBAF2aTElRIeNlzFU2kg8XSiRtcmH_J";
+
+const predicas = await getLatestPredicas(3);
 ---
 
 <section
@@ -27,12 +29,12 @@ const predicas: YoutubeVideo[] = data;
         </p>
       </div>
       <a
-        href="https://www.youtube.com/@iglesiaucbcristoalmundo"
+        href={PLAYLIST_URL}
         target="_blank"
         rel="noopener noreferrer"
         class="hidden md:flex items-center text-ink font-[450] hover:underline underline-offset-4 decoration-1 transition-colors"
       >
-        Ver canal completo
+        Ver playlist completa
         <svg
           class="w-5 h-5 ml-2"
           fill="none"
@@ -52,12 +54,14 @@ const predicas: YoutubeVideo[] = data;
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto"
     >
       {
-        predicas.slice(0, 3).map((predica) => (
+        predicas.map((predica) => (
           <div class="bg-paper rounded-[8px] overflow-hidden ring-1 ring-ink/10 hover:shadow-md transition-all flex flex-col group">
             <div class="relative h-60 overflow-hidden">
               <img
                 src={predica.thumbnail}
                 alt={predica.title}
+                loading="lazy"
+                decoding="async"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div class="absolute inset-0 bg-ink/10 group-hover:bg-transparent transition-colors duration-500" />
@@ -82,22 +86,6 @@ const predicas: YoutubeVideo[] = data;
                 </span>
               </div>
               <h3 class="text-xl font-bold text-ink mb-2">{predica.title}</h3>
-              <p class="text-ink font-[320] mt-auto flex items-center tracking-[-0.14px]">
-                <svg
-                  class="w-4 h-4 mr-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                  />
-                </svg>
-                {predica.preacher}
-              </p>
             </div>
           </div>
         ))

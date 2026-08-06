@@ -17,17 +17,17 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
         >
           UCB
         </div>
-        <h2 class="text-3xl font-[400] tracking-[-0.26px]">Cristo al Mundo</h2>
+        <p class="text-3xl font-[400] tracking-[-0.26px]">Cristo al Mundo</p>
       </div>
 
       <p class="label-mono text-ink mb-4 text-[0.75rem] sm:text-[1.125rem]">
         Contacto
       </p>
-      <h3
+      <h2
         class="text-4xl md:text-5xl font-[400] mb-6 tracking-[-0.96px] text-ink leading-tight"
       >
         Estamos para servirte
-      </h3>
+      </h2>
 
       <p
         class="text-ink text-lg mb-10 leading-relaxed font-[320] tracking-[-0.14px]"
@@ -81,7 +81,10 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
           </svg>
           <div>
             <h4 class="font-[540] text-ink mb-1">Correo Electrónico</h4>
-            <p class="text-ink/70 font-[320]">contacto@ucbcristoalmundo.cl</p>
+                <a
+                  href="mailto:contacto@ucbcristoalmundo.cl"
+                  class="text-ink/70 font-[320] hover:text-ink hover:underline underline-offset-4"
+                >contacto@ucbcristoalmundo.cl</a>
           </div>
         </div>
 
@@ -101,7 +104,10 @@ import { Leaflet, Marker, Popup } from "astro-leaflet";
           </svg>
           <div>
             <h4 class="font-[540] text-ink mb-1">Teléfono Central</h4>
-            <p class="text-ink/70 font-[320]">+56 2 2123 4567</p>
+                <a
+                  href="tel:+56221234567"
+                  class="text-ink/70 font-[320] hover:text-ink hover:underline underline-offset-4"
+                >+56 2 2123 4567</a>
           </div>
         </div>
       </div>

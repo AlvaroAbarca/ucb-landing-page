@@ -1,4 +1,6 @@
 ---
+export const prerender = true;
+
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
@@ -8,7 +10,10 @@ import Contacto from "../components/Contacto.astro";
 import Footer from "../components/Footer.astro";
 ---
 
-<Layout title="UCB Cristo al Mundo">
+<Layout
+  title="UCB Cristo al Mundo | Iglesia en Melipilla"
+  description="Iglesia UCB Cristo al Mundo en Melipilla: participa en nuestros cultos, conoce nuestros horarios y encuentra cómo contactarnos."
+>
   <Header />
 
   <main

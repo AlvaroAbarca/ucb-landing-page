@@ -1,9 +1,8 @@
 ---
 title: Ministerio de Párvulos (Infantil)
+description: Conoce el Ministerio de Párvulos de UCB Cristo al Mundo, dedicado a acompañar a los niños en su crecimiento espiritual.
 layout: '../../layouts/MarkdownLayout.astro'
 ---
-
-# Ministerio de Párvulos (Infantil)
 
 ## Nuestro Propósito
 

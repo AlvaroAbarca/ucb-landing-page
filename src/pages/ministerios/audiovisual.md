@@ -1,9 +1,8 @@
 ---
 title: Ministerio Audiovisual y Transmisiones
+description: Conoce el Ministerio Audiovisual y de Transmisiones de UCB Cristo al Mundo y sus formas de servicio.
 layout: '../../layouts/MarkdownLayout.astro'
 ---
-
-# Ministerio Audiovisual y Transmisiones
 
 ## Nuestro Propósito
 

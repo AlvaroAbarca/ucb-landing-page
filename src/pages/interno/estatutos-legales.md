@@ -1,9 +1,10 @@
 ---
 title: Estatutos Legales
+noindex: true
 layout: '../../layouts/MarkdownLayout.astro'
 ---
 
-# ACTA DE LA SESIÓN CONSTITUTIVA DE LA IGLESIA EVANGELICA UNIÓN DE CENTROS BÍBLICOS
+## ACTA DE LA SESIÓN CONSTITUTIVA DE LA IGLESIA EVANGELICA UNIÓN DE CENTROS BÍBLICOS
 
 EN LA CIUDAD DE TEMUCO, República de Chile, a dicaseis de septiembre de dos mil dos, ante mí, **JUAN ANTONIO LOYOLA OPAZO**, Abogado, Notario Público de la Agrupación de Comunas de Temuco, Melipeuco, Vilcún, Cunco y Freire, con domicilio en esta ciudad, Calle Arturo Prat setecientos diecisiete, oficina cero veintidós, comparece: don **VICTOR ABDON FLORES SALAS**, Pastor Evangélico, casado, domiciliado en calle las Petunias número mil setecientos setenta de Temuco, cédula de identidad número seis millones cuatrocientos veinte mil trescientos ochenta y siete guión ocho.-. El compareciente mayor de edad quien acreditó su identidad con su precitada cédula expone:  
 
@@ -15,7 +16,7 @@ las Petunias número mil setecientos ochenta y uno de Temuco, cédula de identid
 
 A continuación se procede a revisar el proyecto de estatuto que cuya redacción estaba entregada a una comisión especial, proyecto que sometido a votación es aprobado por la unanimidad de los comparecientes y constituyentes. Acto seguido se procede a efectuar la votación para el nombramiento de un Directorio Provisorio que funcionara para todo los efectos hasta el momento en que tenga lugar la elección de directorio de la entidad recién constituida en conformidad y de acuerdo a lo establecido en el propio estatuto que hoy se aprueba, el Directorio Provisorio queda formado de la siguiente manera: **PRESIDENTE**: Pastor MIGUEL ANGEL MONDACA GOMEZ; **VICEPRESIDENTE**: Pastor ANDRES MILLANAO HUICHALAF; **SECRETARIO**: Pastor VICTOR ABDON FLORES SALAS; **TESORERO**: Pastor ALBERTO GONZALES MORIS; y **DIRECTOR**: Pastor CURTIS RYRIL STEWARD WOODS. Terminada la elección se procede a insertar el estatuto de la nueva entidad religiosa en forma íntegra cuyo tenor es el siguiente:  
 
-# ESTATUTOS IGLESIA EVANGELICA UNIÓN CENTROS BÍBLICOS
+## ESTATUTOS IGLESIA EVANGELICA UNIÓN CENTROS BÍBLICOS
 
 ### TITULO PRIMERO: DEL NOMBRE, OBJETO, DOMICILIO Y DURACIÓN
 

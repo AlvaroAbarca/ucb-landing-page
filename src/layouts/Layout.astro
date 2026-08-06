@@ -3,9 +3,41 @@ import "../styles/global.css";
 
 interface Props {
   title: string;
+  description?: string;
+  noindex?: boolean;
 }
 
-const { title } = Astro.props;
+const {
+  title,
+  description =
+    "Iglesia UCB Cristo al Mundo en Melipilla: conoce nuestra comunidad, horarios de reunión, ministerios y formas de contacto.",
+  noindex = false,
+} = Astro.props;
+const siteUrl = Astro.site ?? new URL(Astro.url.origin);
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl);
+const socialImageUrl = new URL("/DSC_7411.webp", siteUrl);
+const robots = noindex ? "noindex, nofollow" : "index, follow";
+const churchJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Church",
+  name: "UCB Cristo al Mundo",
+  description,
+  url: siteUrl.href,
+  image: socialImageUrl.href,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Merced 769",
+    addressLocality: "Melipilla",
+    addressRegion: "Región Metropolitana",
+    addressCountry: "CL",
+  },
+  telephone: "+56 2 2123 4567",
+  email: "contacto@ucbcristoalmundo.cl",
+};
+const serializedChurchJsonLd = JSON.stringify(churchJsonLd)
+  .replace(/</g, "\\u003c")
+  .replace(/>/g, "\\u003e")
+  .replace(/&/g, "\\u0026");
 ---
 
 <!doctype html>
@@ -14,12 +46,29 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalUrl.href} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content={robots} />
     <title>{title}</title>
-    <meta
-      name="description"
-      content="Iglesia Cristiana UCB Cristo al Mundo - Un lugar de adoración, comunión y crecimiento espiritual."
-    />
+    <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl.href} />
+    <meta property="og:site_name" content="UCB Cristo al Mundo" />
+    <meta property="og:image" content={socialImageUrl.href} />
+    <meta property="og:image:alt" content="UCB Cristo al Mundo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl.href} />
+    {!noindex && (
+      <script
+        type="application/ld+json"
+        set:html={serializedChurchJsonLd}
+      />
+    )}
   </head>
   <body class="bg-paper text-ink font-sans antialiased">
     <slot />

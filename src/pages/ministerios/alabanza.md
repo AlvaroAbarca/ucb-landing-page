@@ -1,9 +1,8 @@
 ---
 title: Ministerio de Alabanza y Adoración
+description: Conoce el Ministerio de Alabanza y Adoración de UCB Cristo al Mundo y cómo puedes servir con música y canto.
 layout: '../../layouts/MarkdownLayout.astro'
 ---
-
-# Ministerio de Alabanza y Adoración
 
 ## Nuestro Propósito
 

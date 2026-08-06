@@ -5,13 +5,21 @@ interface Props {
   frontmatter: {
     title: string;
     description?: string;
+    noindex?: boolean;
   };
 }
 
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={frontmatter.title}>
+<Layout
+  title={frontmatter.title}
+  description={
+    frontmatter.description ??
+      "Conoce más sobre UCB Cristo al Mundo y nuestra forma de servir a la comunidad en Melipilla."
+  }
+  noindex={frontmatter.noindex}
+>
   <main
     class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-paper flex justify-center"
   >
@@ -42,6 +50,7 @@ const { frontmatter } = Astro.props;
           Volver atrás
         </a>
       </div>
+      <h1>{frontmatter.title}</h1>
       <slot />
     </article>
   </main>

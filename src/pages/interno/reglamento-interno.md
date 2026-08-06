@@ -1,9 +1,10 @@
 ---
 title: Reglamento Interno
+noindex: true
 layout: '../../layouts/MarkdownLayout.astro'
 ---
 
-# REGLAMENTOS INTERNOS DE LA I.E.U.C.B
+## REGLAMENTOS INTERNOS DE LA I.E.U.C.B
 
 ## TÍTULO PRELIMINAR: DEFINICIONES
 

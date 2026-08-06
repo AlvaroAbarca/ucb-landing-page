@@ -47,7 +47,10 @@ const ministerios = [
 ];
 ---
 
-<Layout title="Ministerios - UCB Cristo al Mundo">
+<Layout
+  title="Ministerios | UCB Cristo al Mundo"
+  description="Descubre los ministerios de UCB Cristo al Mundo: alabanza, diáconos, audiovisual, párvulos y jóvenes en Melipilla."
+>
   <Header />
 
   <main
@@ -80,6 +83,7 @@ const ministerios = [
                     alt={`Imagen del ministerio de ${ministerio.titulo}`}
                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div class="absolute inset-0 bg-gradient-to-t from-ink/60 to-transparent opacity-80" />
                   <h3 class="absolute bottom-6 left-6 right-6 text-2xl font-[700] text-paper leading-tight">
@@ -95,7 +99,7 @@ const ministerios = [
                       href={ministerio.enlace}
                       class="text-ink font-[450] flex items-center hover:underline underline-offset-4 decoration-1 transition-colors inline-flex"
                     >
-                      Conocer más
+                      Conocer el ministerio de {ministerio.titulo}
                       <svg
                         class="w-5 h-5 ml-2"
                         fill="none"

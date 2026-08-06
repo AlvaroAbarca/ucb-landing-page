@@ -1,9 +1,8 @@
 ---
 title: Ministerio de Jóvenes
+description: Conoce el Ministerio de Jóvenes de UCB Cristo al Mundo, un espacio para crecer en la fe y compartir en comunidad.
 layout: '../../layouts/MarkdownLayout.astro'
 ---
-
-# Ministerio de Jóvenes
 
 ## Nuestro Propósito
 
@@ -18,6 +17,6 @@ Proveemos un espacio dinámico para que los jóvenes crezcan en su fe, compartan
 
 ## Cómo Involucrarse
 
-El ministerio está abierto para todos los jóvenes de la iglesia y sus amigos. Si deseas integrarte al equipo de liderazgo, debes ser miembro activo, demostrar madurez espiritual y compromiso con la visión de la iglesia. 
+El ministerio está abierto para todos los jóvenes de la iglesia y sus amigos. Si deseas integrarte al equipo de liderazgo, debes ser miembro activo, demostrar madurez espiritual y compromiso con la visión de la iglesia.
 
 > "Ninguno tenga en poco tu juventud, sino sé ejemplo de los creyentes en palabra, conducta, amor, espíritu, fe y pureza." - 1 Timoteo 4:12
