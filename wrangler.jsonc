@@ -1,27 +1,33 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "compatibility_date": "2026-04-12",
-  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
-  "name": "ucb-landing-page",
-  "main": "@astrojs/cloudflare/entrypoints/server",
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS"
-  },
-  "observability": {
-    "enabled": true
-  },
-  "upload_source_maps": true,
-  // Secret (not in config): wrangler secret put YOUTUBE_API_KEY
-  // Local: copy .dev.vars.example → .dev.vars
-  "vars": {
-    "YOUTUBE_PLAYLIST_ID": "PLVXBAF2aTElRIeNlzFU2kg8XSiRtcmH_J"
-  },
-  "kv_namespaces": [
-    {
-      "binding": "PREDICAS_CACHE"
-      // After: wrangler kv namespace create predicas-cache
-      // add: "id": "<namespace-id>"
-    }
-  ]
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"compatibility_date": "2026-04-12",
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"name": "ucb-landing-page",
+	"main": "@astrojs/cloudflare/entrypoints/server",
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS"
+	},
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	// Secret (not in config): wrangler secret put YOUTUBE_API_KEY
+	// Local: copy .dev.vars.example → .dev.vars
+	"vars": {
+		"YOUTUBE_PLAYLIST_ID": "PLVXBAF2aTElRIeNlzFU2kg8XSiRtcmH_J"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "PREDICAS_CACHE",
+			"id": "9918ddc0298947038271641bce0d69e3"
+		},
+		{
+			"binding": "predicas_cache",
+			"id": "9918ddc0298947038271641bce0d69e3"
+		}
+	]
 }
