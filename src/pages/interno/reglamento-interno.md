@@ -1,7 +1,7 @@
 ---
 title: Reglamento Interno
-noindex: true
-layout: '../../layouts/MarkdownLayout.astro'
+noindex: false
+layout: "../../layouts/MarkdownLayout.astro"
 ---
 
 ## REGLAMENTOS INTERNOS DE LA I.E.U.C.B
@@ -72,13 +72,13 @@ Los Bautismos, Día de Acción de Gracias, matrimonios, Disciplina, serán evalu
 
 **Artículo 19°.-** la membresía se obtiene igualmente por:
 
-- **a)** Traslado de otra Iglesia Centro Bíblico.** El Directorio deberá solicitar carta de traslado de la Iglesia de procedencia del hermano o hermana que se está congregando y que manifiesta interés de incorporarse como miembro de la Iglesia Local después de un tiempo prudente. Dicha carta deberá señalar a lo menos, la fecha en que el hermano/a se incorporó a la iglesia o grupo desde el cual se traslada, la calidad de miembro que ostenta, en que ministerio sirve a la iglesia local y si se encuentra afecto a alguna medida disciplinaria. Recibida la carta, y comprobados los requisitos por el Directorio, se le invitará a firmar el libro de Membresía, tomándose nota en el libro de actas, agregando a éste la carta de traslado firmada y timbrada.
+- **a)** Traslado de otra Iglesia Centro Bíblico.\*\* El Directorio deberá solicitar carta de traslado de la Iglesia de procedencia del hermano o hermana que se está congregando y que manifiesta interés de incorporarse como miembro de la Iglesia Local después de un tiempo prudente. Dicha carta deberá señalar a lo menos, la fecha en que el hermano/a se incorporó a la iglesia o grupo desde el cual se traslada, la calidad de miembro que ostenta, en que ministerio sirve a la iglesia local y si se encuentra afecto a alguna medida disciplinaria. Recibida la carta, y comprobados los requisitos por el Directorio, se le invitará a firmar el libro de Membresía, tomándose nota en el libro de actas, agregando a éste la carta de traslado firmada y timbrada.
 
-- **b)** Traslado desde otra Congregación Evangélica.** Después de un tiempo no inferior a 6 meses durante el cual un hermano de otra congregación evangélica ha mostrado buen testimonio, está de acuerdo con la doctrina y manifiesta interés de trabajar con la Iglesia; el Cuerpo de Ancianos debe evaluar la conveniencia del traslado de su membresía. En tal caso si su congregación de procedencia no tiene la política de dar carta de traslado, de todas maneras el Cuerpo de Ancianos debe recibir información oral, a lo menos, para entonces incorporarlo a la membresía “por testimonio”. Si la congregación de origen entrega carta de traslado, el hermano será recibido
+- **b)** Traslado desde otra Congregación Evangélica.\*\* Después de un tiempo no inferior a 6 meses durante el cual un hermano de otra congregación evangélica ha mostrado buen testimonio, está de acuerdo con la doctrina y manifiesta interés de trabajar con la Iglesia; el Cuerpo de Ancianos debe evaluar la conveniencia del traslado de su membresía. En tal caso si su congregación de procedencia no tiene la política de dar carta de traslado, de todas maneras el Cuerpo de Ancianos debe recibir información oral, a lo menos, para entonces incorporarlo a la membresía “por testimonio”. Si la congregación de origen entrega carta de traslado, el hermano será recibido
 
 por esta vía. En el caso que el hermano no ha sido bautizado por inmersión, deberá hacerlo.
 
-- **c)** Traslado a otra Iglesia Centro Bíblico u otra Congregación.** El Cuerpo de Ancianos facilitará la unión de cualquiera de sus miembros a otra congregación, respondiendo las solicitudes de traslado hechas por algún directorio de otra Iglesia o informes verbales si corresponde, dentro de los 30 días siguientes a la solicitud; dejando constancia en el libro de registro de socios la fecha y lugar del traslado.
+- **c)** Traslado a otra Iglesia Centro Bíblico u otra Congregación.\*\* El Cuerpo de Ancianos facilitará la unión de cualquiera de sus miembros a otra congregación, respondiendo las solicitudes de traslado hechas por algún directorio de otra Iglesia o informes verbales si corresponde, dentro de los 30 días siguientes a la solicitud; dejando constancia en el libro de registro de socios la fecha y lugar del traslado.
 
 **Artículo 20°.-** En ocasión de la celebración de la Cena del Señor, el Cuerpo de Ancianos hará la recepción a los nuevos Miembros dando la bienvenida a la comunión de la Iglesia. Este será el momento para registrar a los miembros en el Libro de registro de Membresía. Los nuevos miembros, por traslado o bautismo, deberán haber leído y estar dispuestos a someterse al Pacto de Membresía y/o Declaración de Fe, según corresponda.
 
@@ -147,23 +147,23 @@ Finalmente, prometo que si tuviera que cambiarme de este lugar, con la ayuda del
 
 **Artículo 30°.-** La iglesia establecerá reuniones periódicas y algunas fechas especiales:
 
-- **a)** Semanas de oración:** Cada Iglesia debe programar dos semanas de oración, una la primera semana del mes de abril y la otra en la primera semana del mes de septiembre, las que corresponden a las semanas oficiales de oración de la IEUCB y que son notificadas en cada Convención.
+- **a)** Semanas de oración:\*\* Cada Iglesia debe programar dos semanas de oración, una la primera semana del mes de abril y la otra en la primera semana del mes de septiembre, las que corresponden a las semanas oficiales de oración de la IEUCB y que son notificadas en cada Convención.
 
-- **b)** Santa Cena:** Se celebrará una vez al mes en todas las iglesias UCB. Se llevará un registro de quienes participan de ella, para efectos de calificar la calidad de miembro de los asistentes.
+- **b)** Santa Cena:\*\* Se celebrará una vez al mes en todas las iglesias UCB. Se llevará un registro de quienes participan de ella, para efectos de calificar la calidad de miembro de los asistentes.
 
-- **c)** Acción de Gracias:** Una vez al año, durante el primer semestre se celebrará el día de Acción de Gracias, y todo lo recaudado será para beneficio del Pastor de la Iglesia Local.
+- **c)** Acción de Gracias:\*\* Una vez al año, durante el primer semestre se celebrará el día de Acción de Gracias, y todo lo recaudado será para beneficio del Pastor de la Iglesia Local.
 
-- **d)** Otras:** Cualquier actividad especial de algún ministerio debe ser previamente planificada e informada al Cuerpo de Ancianos para su aprobación.
+- **d)** Otras:\*\* Cualquier actividad especial de algún ministerio debe ser previamente planificada e informada al Cuerpo de Ancianos para su aprobación.
 
 **Artículo 31°.-** En relación a bendiciones impartidas durante ceremonias efectuadas en la iglesia, se mencionan las siguientes:
 
-- **a)** Bendición sobre el matrimonio:** La Iglesia reconoce el matrimonio cristiano, como la unión entre un hombre y una mujer que, libremente y bajo la dirección de Dios, han decidido unir sus vidas, delante de Dios y el mundo. Esta unión la instituyó Dios, por tanto deberá ajustarse a los preceptos y criterios bíblicos. Los matrimonios de miembros se realizarán en el templo, sólo en el caso de que ambos novios sean creyentes. La Escritura prohíbe las uniones en yugo desigual, por lo tanto es contradictorio pedir la bendición de Dios sobre dichas uniones. Sólo Pastores ordenados y misioneros están
+- **a)** Bendición sobre el matrimonio:\*\* La Iglesia reconoce el matrimonio cristiano, como la unión entre un hombre y una mujer que, libremente y bajo la dirección de Dios, han decidido unir sus vidas, delante de Dios y el mundo. Esta unión la instituyó Dios, por tanto deberá ajustarse a los preceptos y criterios bíblicos. Los matrimonios de miembros se realizarán en el templo, sólo en el caso de que ambos novios sean creyentes. La Escritura prohíbe las uniones en yugo desigual, por lo tanto es contradictorio pedir la bendición de Dios sobre dichas uniones. Sólo Pastores ordenados y misioneros están
 
 facultados para realizar esta ceremonia. Cualquiera otra variante de la bendición matrimonial deberá ser aprobada por el directorio en pleno.
 
-- **b)** Bendición de niños:** La presentación de niños consiste en una breve ceremonia, pidiendo al Señor en oración la bendición sobre los niños y el compromiso de sus padres de criarlos en el temor de Dios, donde la Iglesia se compromete a orar continuamente por ellos. \- Puede ser realizada por un Pastor Ordenado y/o en Práctica o un Anciano de la Iglesia.
+- **b)** Bendición de niños:\*\* La presentación de niños consiste en una breve ceremonia, pidiendo al Señor en oración la bendición sobre los niños y el compromiso de sus padres de criarlos en el temor de Dios, donde la Iglesia se compromete a orar continuamente por ellos. \- Puede ser realizada por un Pastor Ordenado y/o en Práctica o un Anciano de la Iglesia.
 
-- **c)** Funeral:** Se accederá a realizar dicha ceremonia con consentimiento por parte del Pastor y/o Anciano, quienes presidirán las ceremonias fúnebres o sepultadoras. En casos excepcionales podrán los diáconos llevarlas a cabo con conocimiento del directorio.
+- **c)** Funeral:\*\* Se accederá a realizar dicha ceremonia con consentimiento por parte del Pastor y/o Anciano, quienes presidirán las ceremonias fúnebres o sepultadoras. En casos excepcionales podrán los diáconos llevarlas a cabo con conocimiento del directorio.
 
 **Artículo 32°.-** La participación activa y el ministerio de la mujer en la Iglesia es una manifestación natural de su posición como creyente, en igual valor y dignidad que el varón. En toda la IEUCB se le permitirá a la mujer que:
 
@@ -375,9 +375,9 @@ El Directorio Distrital velará para que los candidatos presentados sean idóneo
 
 **Artículo 65°.-** Los candidatos deberán siempre estar presentes en el momento de la elección. Toda excepción será analizada por la Asamblea, previa presentación de los antecedentes por el interesado. Los integrantes oficiales de la Asamblea Distrital nombrarán a una terna para formar el comité de elección que hará ejecutar el escrutinio y bajo cuya supervisión se contarán los votos. Quedarán excluidos de formar parte del comité de elección, los integrantes del Directorio Distrital. La elección se hará en votación secreta en hoja suelta doblada.
 
-- **a)** Elección del Presidente del Directorio Distrital.** En el primer escrutinio, la Asamblea Distrital elegirá al presidente; y se requerirá la mayoría de los votos emitidos para resultar elegido (50% más uno). Si ningún candidato alcanza la mayoría en el primer intento, se hará una segunda ronda de elección entre los dos candidatos que obtuvieron el mayor número de votos válidos en la primera ronda. Para eso, se requiere la mayoría simple. El candidato con segunda votación será el vicepresidente.
-- **b)** Elección / nombramiento de los demás integrantes del Directorio Distrital.** En un segundo escrutinio, la Asamblea Distrital elegirá a dos integrantes más que necesitarán la simple mayoría.
-- **c)** Distribución de cargos.** De entre los dos integrantes elegidos, tendrán la facultad de distribuir entre sí los cargos de secretario y tesorero.
+- **a)** Elección del Presidente del Directorio Distrital.\*\* En el primer escrutinio, la Asamblea Distrital elegirá al presidente; y se requerirá la mayoría de los votos emitidos para resultar elegido (50% más uno). Si ningún candidato alcanza la mayoría en el primer intento, se hará una segunda ronda de elección entre los dos candidatos que obtuvieron el mayor número de votos válidos en la primera ronda. Para eso, se requiere la mayoría simple. El candidato con segunda votación será el vicepresidente.
+- **b)** Elección / nombramiento de los demás integrantes del Directorio Distrital.\*\* En un segundo escrutinio, la Asamblea Distrital elegirá a dos integrantes más que necesitarán la simple mayoría.
+- **c)** Distribución de cargos.\*\* De entre los dos integrantes elegidos, tendrán la facultad de distribuir entre sí los cargos de secretario y tesorero.
 
 **Artículo 66°.-** Los integrantes del Directorio Distrital, durarán en sus cargos 2 años, pudiendo ser reelectos, mientras estén en plena comunión con su iglesia local, mantengan vigente su calidad de delegado oficial de la iglesia, y, además en el caso de pastores, misioneros y/o miembros del directorio de departamentos nacionales, mientras ejerzan sus ministerios activamente. Al igual que lo dicho en el Artículo 35° para los Ancianos, los integrantes del Directorio Distrital podrían ser confirmados si 2/3 de los integrantes oficiales de la Asamblea así lo aprueban.
 
@@ -387,11 +387,11 @@ Si por alguna razón algún miembro del Directorio Distrital tuviera que renunci
 
 **Artículo 68°.-** Responsabilidades y facultades particulares del Directorio Distrital:
 
-- **a)** Supervisión.** El Directorio Distrital velará para que las iglesias/grupos cumplan con el presente Reglamento Interno y que se ejecuten los acuerdos de la Convención en su zona.
-- **b)** Sesiones del Directorio Distrital.** Deberá constituirse en sesión, cada vez que el presidente lo requiere, y cuando lo soliciten a lo menos dos de sus miembros.
-- **c)** Sesiones de la Asamblea Distrital.** El Directorio Distrital programará, preparará (tabla), convocará y dirigirá las sesiones de la Asamblea Distrital, preocupándose de que cada iglesia se haga representar en ellas por sus delegados y pastor, mediante una comunicación efectiva y oportuna (invitación por escrito con presentación de la tabla). Recibirá y considerará sugerencias para la confección de la tabla. Tendrá la facultad de pedir la participación de invitados especiales como conferencistas, consejeros y/u otros.
-- **d)** Comisiones especiales.** El Directorio Distrital podrá establecer comisiones/comités especiales que sean necesarios para el funcionamiento del Distrito, y designar y remover a sus miembros.
-- **e)** Comunicación.** El Directorio Distrital se preocupará de la transparencia de toda actividad del Distrito y de un buen flujo de informaciones dentro de su jurisdicción, manteniendo activa la comunicación tanto con la Junta Ejecutiva como también con el Cuerpo de Pastores o de Misioneros en cuanto haya asuntos de interés o de relevancia para ellos.
+- **a)** Supervisión.\*\* El Directorio Distrital velará para que las iglesias/grupos cumplan con el presente Reglamento Interno y que se ejecuten los acuerdos de la Convención en su zona.
+- **b)** Sesiones del Directorio Distrital.\*\* Deberá constituirse en sesión, cada vez que el presidente lo requiere, y cuando lo soliciten a lo menos dos de sus miembros.
+- **c)** Sesiones de la Asamblea Distrital.\*\* El Directorio Distrital programará, preparará (tabla), convocará y dirigirá las sesiones de la Asamblea Distrital, preocupándose de que cada iglesia se haga representar en ellas por sus delegados y pastor, mediante una comunicación efectiva y oportuna (invitación por escrito con presentación de la tabla). Recibirá y considerará sugerencias para la confección de la tabla. Tendrá la facultad de pedir la participación de invitados especiales como conferencistas, consejeros y/u otros.
+- **d)** Comisiones especiales.\*\* El Directorio Distrital podrá establecer comisiones/comités especiales que sean necesarios para el funcionamiento del Distrito, y designar y remover a sus miembros.
+- **e)** Comunicación.\*\* El Directorio Distrital se preocupará de la transparencia de toda actividad del Distrito y de un buen flujo de informaciones dentro de su jurisdicción, manteniendo activa la comunicación tanto con la Junta Ejecutiva como también con el Cuerpo de Pastores o de Misioneros en cuanto haya asuntos de interés o de relevancia para ellos.
 
 **Artículo 69°.-** Serán responsabilidades y facultades particulares del **Presidente** (o vicepresidente en sustitución) del Directorio Distrital:
 
@@ -428,11 +428,11 @@ Si por alguna razón algún miembro del Directorio Distrital tuviera que renunci
 
 **Artículo 72°.-** Responsabilidad del **Directorio Distrital** para con las iglesias y grupos.
 
-- **a)** Comunicación.** El Directorio Distrital mantendrá una comunicación activa con las iglesias y grupos mediante cartas, informes, circulares, actas, emails, y otros, cuando sea oportuno. El Directorio Distrital recibirá, procesará y canalizará toda la información de las iglesias para la Convención, como también propuestas, solicitudes, proyectos etc.
-- **b)** Asesorías.** El Directorio Distrital estará disponible para prestar asesoría cuando se le solicite, a las iglesias locales/grupos de su zona cuando se susciten problemas de cualquier índole que no puedan solucionar ellos mismos.
-- **c)** Provisión de Pastores.** El Directorio Distrital se preocupará de que cada iglesia/grupo tenga su Pastor o Pastor Asesor u otro encargado, prestando asesoría y asistencia en la búsqueda. Actuará como coordinador no resolutivo ante el Directorio de Pastores en relación a la búsqueda de un nuevo Pastor para las iglesias/grupos de su zona que lo requieran, y tendrá participación en la instalación de pastores y misioneros.
-- **d)** Capacitación de Ancianos.** El Directorio Distrital emprenderá cualquier esfuerzo posible para asistir a las iglesias en el ámbito de la capacitación teológica y práctica de sus Ancianos, según el programa elaborado por la Iglesia IEUCB, ya sea mediante cursos por correspondencia, conferencias o cursos de capacitación dictadas en las sedes del ICAT.
-- **e)** Disciplina.** En asuntos de disciplina dentro de una iglesia local, que no pueda resolver ella misma, el Directorio Distrital podrá intervenir aconsejando, siempre y cuando el Cuerpo de Ancianos de una Iglesia Local presente una carta de petición en ese sentido.
+- **a)** Comunicación.\*\* El Directorio Distrital mantendrá una comunicación activa con las iglesias y grupos mediante cartas, informes, circulares, actas, emails, y otros, cuando sea oportuno. El Directorio Distrital recibirá, procesará y canalizará toda la información de las iglesias para la Convención, como también propuestas, solicitudes, proyectos etc.
+- **b)** Asesorías.\*\* El Directorio Distrital estará disponible para prestar asesoría cuando se le solicite, a las iglesias locales/grupos de su zona cuando se susciten problemas de cualquier índole que no puedan solucionar ellos mismos.
+- **c)** Provisión de Pastores.\*\* El Directorio Distrital se preocupará de que cada iglesia/grupo tenga su Pastor o Pastor Asesor u otro encargado, prestando asesoría y asistencia en la búsqueda. Actuará como coordinador no resolutivo ante el Directorio de Pastores en relación a la búsqueda de un nuevo Pastor para las iglesias/grupos de su zona que lo requieran, y tendrá participación en la instalación de pastores y misioneros.
+- **d)** Capacitación de Ancianos.\*\* El Directorio Distrital emprenderá cualquier esfuerzo posible para asistir a las iglesias en el ámbito de la capacitación teológica y práctica de sus Ancianos, según el programa elaborado por la Iglesia IEUCB, ya sea mediante cursos por correspondencia, conferencias o cursos de capacitación dictadas en las sedes del ICAT.
+- **e)** Disciplina.\*\* En asuntos de disciplina dentro de una iglesia local, que no pueda resolver ella misma, el Directorio Distrital podrá intervenir aconsejando, siempre y cuando el Cuerpo de Ancianos de una Iglesia Local presente una carta de petición en ese sentido.
 
 ## TÍTULO III: CONVENCIÓN NACIONAL
 

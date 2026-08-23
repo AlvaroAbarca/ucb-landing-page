@@ -1,7 +1,7 @@
 ---
-title: Ministerio de Diáconos y Ujieres
-description: Conoce el Ministerio de Diáconos y Ujieres de UCB Cristo al Mundo y su servicio de acogida y apoyo en los cultos.
-layout: '../../layouts/MarkdownLayout.astro'
+title: Ministerio de Diáconos
+description: Conoce el Ministerio de Diáconos de UCB Cristo al Mundo y su servicio de acogida y apoyo en los cultos.
+layout: "../../layouts/MarkdownLayout.astro"
 ---
 
 ## Nuestro Propósito

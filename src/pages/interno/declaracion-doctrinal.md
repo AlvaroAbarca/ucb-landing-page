@@ -1,7 +1,7 @@
 ---
 title: Declaración Doctrinal
-noindex: true
-layout: '../../layouts/MarkdownLayout.astro'
+noindex: false
+layout: "../../layouts/MarkdownLayout.astro"
 ---
 
 ## DECLARACIÓN DOCTRINAL DE LA IEUCB
